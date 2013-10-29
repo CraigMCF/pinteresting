@@ -84,7 +84,6 @@ Pinteresting::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # Sets paperclip to upload images to Amazon S3
-  # config/environments/production.rb
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
